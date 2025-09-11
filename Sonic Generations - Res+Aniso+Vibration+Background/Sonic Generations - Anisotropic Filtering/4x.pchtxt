@@ -1,0 +1,10 @@
+@nsobid-D91C67509C6AED8D949E33C6B1AEE3074C916C47
+# SONIC GENERATIONS
+# 01005EA01C0FC001
+
+@flag print_values
+
+// Aniso
+@enabled
+007D5098 1f2003d5 // tbz w8, #6, #0x2c | nop
+007D50AC 0010221e // ucvtf s0,s0 | fmov s0, #4.0

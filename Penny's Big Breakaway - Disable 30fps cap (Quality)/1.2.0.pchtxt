@@ -1,0 +1,10 @@
+@nsobid-E3BFADABB4C202BAE01C73D0798DCFC34EE4423D
+# Penny’s Big Breakaway
+# 0100CA901AA9C000
+
+@flag print_values
+@flag offset_shift 0x100
+
+// Force 60fps
+@enabled
+00040bd8 12000014 // cbz w8,LAB_7100040c20 | b LAB_7100040c20

@@ -1,0 +1,10 @@
+@nsobid-D91C67509C6AED8D949E33C6B1AEE3074C916C47
+# SONIC GENERATIONS
+# 01005EA01C0FC001
+
+@flag print_values
+@flag offset_shift 0x100
+
+// Pause in home menu
+@enabled
+007e3534 1f2003d5 // nn::oe::SetFocusHandlingMode | nop

@@ -1,0 +1,6 @@
+Cheats:
+
+Vibration strength
+
+Resolution
+

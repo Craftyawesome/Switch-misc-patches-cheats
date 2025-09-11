@@ -1,0 +1,23 @@
+@nsobid-D70CE1726C979E45ED4200E9C2B23B2A258FDC18
+
+# Super Mario Party Jamboree [0100965017338000] v2.1.1-v2.2.0 - 1080P docked 720p Handheld
+
+@flag print_values
+@flag offset_shift 0x100
+
+@enabled
+// 1920x1080 Docked
+001db37c 08F080D2 // w
+001db384 0887C0F2 // h
+
+// 1280x720 Handheld
+001db378 02A080D2 // w
+001db380 025AC0F2 // h
+@stop
+
+Original 1080p mod by @Fl4sh_#9174
+https://github.com/Fl4sh9174
+https://ko-fi.com/fl4sh9174
+
+Updated by Craftyawesome
+https://github.com/Craftyawesome

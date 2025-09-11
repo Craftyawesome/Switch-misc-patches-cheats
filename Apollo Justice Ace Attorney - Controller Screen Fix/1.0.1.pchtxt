@@ -1,0 +1,13 @@
+@nsobid-F1A7E0DB6B0EC65F73D6CDDFEB50E920D619BB14
+# AJAA
+# 010020D01B890000
+
+@flag print_values
+@flag offset_shift 0x100
+
+// fix
+@enabled
+02c32510 1f2003d5
+02c32514 1f2003d5
+
+
