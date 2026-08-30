@@ -1,0 +1,20 @@
+@nsobid-F48BD40D89B529C114F17C7909FE6AA4
+
+# Donkey Kong Country Tropical Freeze [0100C1F0051B6000] 1.0.2 - 720p handheld
+
+@flag print_values
+@flag offset_shift 0x100
+
+
+@enabled
+0001F63C 00A08052
+0001F644 005A8052
+0001F64C 00A08052
+0001F654 005A8052
+@stop
+
+@Fl4sh_#9174
+https://github.com/Fl4sh9174
+
+@Craftyawesome
+https://github.com/Craftyawesome
