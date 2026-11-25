@@ -1,0 +1,20 @@
+@nsobid-870CBF290B308647CB615E9381C65FB100000000
+#0100152000022000
+
+# Mario Kart 8 Deluxe v4.0.1 - 60 fps 3+ player
+
+@flag print_values
+@flag offset_shift 0x100
+
+@enabled
+//60fps
+008383a0 7C000014 // b.ne LAB_7100838590 | b LAB_7100838590
+
+@enabled
+//25% min DRS
+0042cf20 0BD0A752 // mov w11,0xaaab | mov w11,0x3e800000
+0042cf24 1F2003D5 // movk w11,#0x3f2a, LSL #16 | nop
+@stop
+
+
+https://github.com/Craftyawesome
