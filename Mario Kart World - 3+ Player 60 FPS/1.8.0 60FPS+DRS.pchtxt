@@ -1,0 +1,28 @@
+@nsobid-D00E4F399E411D0613AA8D26B1C02FEF00000000
+#0400C3F00006E000
+
+# Mario Kart World v1.8.0 - 60 fps 3+ player
+
+@flag print_values
+@flag offset_shift 0x100
+
+@enabled
+//60fps
+002d1ca0 1F2003D5 // lsl w8,w8,#0x1 | nop
+
+
+@enabled
+//25% min DRS
+00370208 0AD0A752 // mov w10,#0x6666 | mov w10,0x3e800000
+0037020c 1F2003D5 // movk w10,#0x3f26, LSL #16 | nop
+
+
+@disabled
+//DR margin adjust
+0037010c 0030371E //fmov s0, #-7.0 | fmov s0, #-25.0
+
+
+@stop
+
+
+https://github.com/Craftyawesome
